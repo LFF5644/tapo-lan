@@ -1,0 +1,17 @@
+{
+  "name": "tapo-lan",
+  "version": "1.0.0",
+  "description": "Local LAN control for TP-Link Tapo plugs (P100/P110) – KLAP + TPAP (SPAKE2+), no cloud, zero dependencies, events & watch polling",
+  "main": "tapo.js",
+  "files": ["tapo.js", "beispiel.js", "README.md", "LICENSE"],
+  "scripts": {
+    "example": "node beispiel.js"
+  },
+  "keywords": ["tapo", "tp-link", "tplink", "p100", "p110", "p115", "smart-plug", "klap", "tpap", "spake2", "local", "lan", "energy", "home-automation"],
+  "author": "LFF5644",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/LFF5644/tapo-lan.git" },
+  "bugs": { "url": "https://github.com/LFF5644/tapo-lan/issues" },
+  "homepage": "https://github.com/LFF5644/tapo-lan#readme",
+  "engines": { "node": ">=18" }
+}
